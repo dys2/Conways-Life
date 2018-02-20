@@ -8,11 +8,11 @@ class LifeCanvas extends Component {
     this.state = {
       proceed: true
     }
-    this.startStop.bind(this);
-    this.randomize.bind(this);
-    this.clear.bind(this);
-    this.addGlider.bind(this);
-    this.addGun.bind(this);
+    this.startStop = this.startStop.bind(this);
+    this.randomize = this.randomize.bind(this);
+    this.clear = this.clear.bind(this);
+    this.addGlider = this.addGlider.bind(this);
+    this.addGun = this.addGun.bind(this);
   }
 
   startStop() {
